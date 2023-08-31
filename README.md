@@ -1,3 +1,15 @@
+<img width="100%" alt="elaine" src="https://github.com/luisfarzati/elaine/assets/107509/43d02f95-4251-45ee-8f1b-f05817899f79">
+
+<p align=center><a href="https://www.npmjs.com/package/elaine"><img src="https://badgen.net/npm/v/elaine" alt="npm version"></a> <a href="https://bundlephobia.com/result?p=elaine"><img src="https://img.shields.io/bundlephobia/minzip/elaine" alt="bundle size"></a> <a href="https://github.com/luisfarzati/elaine/blob/main/LICENSE.txt"><img src="https://badgen.net/github/license/luisfarzati/elaine" alt="License"></a></p>
+
+Elaine is a TypeScript library designed for crafting chatbots and conversational interfaces on Node and Edge runtimes, leveraging the OpenAI Chat Completion API.
+
+This project aims to cover a wide spectrum of requirements. While beginners should find it easy and straightforward, seasoned developers should also benefit from its sophisticated features.
+
+- **Stream-first**: Embracing a stream-first approach ensures that Elaine is incredibly efficient and scalable, especially in modern Edge/v8 environments. 
+- **Function integration out of the box**: Effortlessly register functions for the bot, amplifying its capabilities. This seamless integration comes complete with built-in typing and validation.
+- **Conversation history**: Automatic conversation history management right out of the box, storing interactions in-memory for quick access. You can also integrate it with your custom message store.
+
 ## Quick start
 
 ```sh
