@@ -1,0 +1,44 @@
+{
+  "name": "elaine",
+  "version": "0.1.0",
+  "description": "Elaine is a simple to use OpenAI-based chatbot.",
+  "keywords": [
+    "chatbot",
+    "openai",
+    "ai",
+    "llm",
+    "gpt"
+  ],
+  "author": "Luis Farzati",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup ./source",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/json-schema": "^7.0.12",
+    "js-tiktoken": "^1.0.7",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
+  },
+  "dependencies": {
+    "openai": "^4.3.1",
+    "zod": "^3.22.2",
+    "zod-to-json-schema": "^3.21.4"
+  }
+}
